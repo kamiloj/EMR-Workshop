@@ -24,11 +24,11 @@
 - Encuentra los días con los mayores ingresos totales y los días con los menores ingresos totales.
 
 ## Sheet Hive
-LIMIT N
-COUNT(*)
-WHERE
-GROUP BY
-SUM(field)
-AVG(field)
-DAYOFWEEK(datefield)
-ORDER BY DESC/ASC
+LIMIT N  
+COUNT(*)  
+WHERE  
+GROUP BY  
+SUM(field)  
+AVG(field)  
+DAYOFWEEK(datefield)  
+ORDER BY DESC/ASC  

@@ -22,3 +22,13 @@
 - Encuentra los cinco proveedores de servicios principales (vendor_id) en función del ingreso total.
 - Encuentra la tarifa promedio por milla (fare_amount / trip_distance) para cada proveedor de servicios y clasifícalos de forma ascendente.
 - Encuentra los días con los mayores ingresos totales y los días con los menores ingresos totales.
+
+## Sheet Hive
+LIMIT N
+COUNT(*)
+WHERE
+GROUP BY
+SUM(field)
+AVG(field)
+DAYOFWEEK(datefield)
+ORDER BY DESC/ASC

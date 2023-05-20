@@ -33,3 +33,4 @@ SUM(field)
 AVG(field)  
 DAYOFWEEK(datefield)  
 ORDER BY DESC/ASC  
+DATE(field)
